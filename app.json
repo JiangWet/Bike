@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/logs/logs",
+    "pages/deposit/deposit",
+    "pages/identify/identify",
+    "pages/charge/charge",
+    "pages/warn/warn",
+    "pages/billing/billing",
+    "pages/scanresult/scanresult",
+    "pages/wallet/wallet",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Bike",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
